@@ -9,10 +9,10 @@ function executa (x,y){
 }
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-var func = executa(2,5);
+var func = executa(2,5) + 5;
 
 // Qual o valor atualizado dessa variável?
-7
+12
 
 // Declare uma nova variável, sem valor.
 var valor;
@@ -31,7 +31,7 @@ function noname(){
 noname;
 
 // Qual o retorno da função? (Use comentários de bloco).
-/*O valor da variável agora é 45 */
+/* O valor da variável agora é 45 */
 
 /*
 Crie uma função com as seguintes características:
@@ -43,9 +43,8 @@ Crie uma função com as seguintes características:
 function Dac(a,b,c){
     if(a == undefined || b == undefined || c == undefined ){
         return "Preencha todos os valores corretamente!";
-    }else{
-        return (a*b*c) + 2;
     }
+        return (a*b*c) + 2;
 } 
 
 // Invoque a função criada acima, passando só dois números como argumento.
